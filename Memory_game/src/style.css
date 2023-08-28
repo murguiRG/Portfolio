@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: grid;
+    height: 100vh;
+    margin: 100px;
+    margin-top: 30px;
+    justify-items: center;    
+    grid-template-columns: repeat(8, 1fr);    
+}
+.card{    
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;    
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(45deg, #e90e33, #352258);
+    transition: 0.3s;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.card-content{
+    font-size: 60px;
+    padding: 10%;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+}    
+.card-content::selection{
+    background-color: transparent;    
+}
+.flipped{
+    transform: rotateY(-180deg);    
+}
