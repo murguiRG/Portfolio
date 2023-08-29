@@ -20,7 +20,7 @@ class Card{
     }    
     flipCards(flippedCards)
     {        
-        if (!this.cardElement.flipped)
+        if (!this.cardElement.flipped && flippedCards.length < 2)
 
         {   //Appends the class to the HTML part of the object (cardElement)
             this.cardElement.classList.add("flipped"); 
