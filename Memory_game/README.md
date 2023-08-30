@@ -7,3 +7,5 @@
   It flips them back if they're different.
 - Found pairs remain flipped showing their content
 - **ctrl + R** or the refresh button should execute the **dealCards** function
+
+[https://htmlpreview.github.io/?https://github.com/murguiRG/Portfolio/blob/main/Memory_game/view/Memory.html]
