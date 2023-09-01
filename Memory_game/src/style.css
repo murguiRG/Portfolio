@@ -5,15 +5,19 @@
 }
 #container{
     display: grid;
-    height: 100vh;
-    margin: 100px;
-    margin-top: 30px;
-    justify-items: center;    
-    grid-template-columns: repeat(8, 1fr);    
+    width: min(85%, 1500px);
+    height: 100vh;    
+    margin-inline: auto;    
+    align-items: center;
+    justify-content: center;        
+    grid-template-columns: repeat(auto-fill, 120px);
+    column-gap: 15px;
+    row-gap: 15px;   
 }
 .card{    
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 120px;
     height: 120px;    
     border-radius: 20px;
