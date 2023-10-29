@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 214, 243);
+}
+h1{
+    color: #571a52;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5em;
+    margin: 5%;
+    margin-bottom: 2%;
+}
+h2, h3
+{
+    color: rgb(112, 8, 103);
+    font-family: 'Comfortaa', sans-serif;  
+    padding-left: 2%; 
+    margin-top: 1em; 
+    margin-bottom: 0.5em;    
+}
+a{
+    color: #571a52;
+}
+ul{
+    color: #571a52;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+}
+li{
+    margin-left: 2em;
+}
+img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.container{
+    margin-top: 1.5em;
+}
+#nav{
+    display: flex;
+    margin-inline: 5%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+#name_{
+    position: relative;
+    display: flex;
+    text-align: left;
+}
+#name_ h1{
+   margin: 0;   
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#blinking{
+    animation: blink 0.8s ease-in-out infinite;
+}
+#media{    
+    display: flex;  
+    width: 90px;      
+    font-size: 2.4em;     
+    margin: 0%;   
+    justify-content: space-between;    
+}
+/* #media i{
+    padding-right: 0.5em;    
+} */
+#media a:hover{
+    color: #350f32; 
+    cursor: pointer;
+}
+.grid-container
+{
+    display: grid;     
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 5%;
+    padding-top: 0;
+}
+.grid-container p{
+    font-family: 'Comfortaa', sans-serif; 
+    font-size: 1.2em;    
+    padding-right: 10%; 
+    padding-left: 2%;     
+    line-height: 1.3em;
+    color: #571a52;
+    margin-bottom: 1em;
+    margin-top: 0;
+    text-align: justify;    
+}
