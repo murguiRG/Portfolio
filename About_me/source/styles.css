@@ -73,7 +73,8 @@ img{
 }
 #media{    
     display: flex;  
-    width: 90px;      
+    width: 90px;
+    height: 3em;
     font-size: 2.4em;     
     margin: 0%;   
     justify-content: space-between;    
